@@ -6,16 +6,16 @@
             
             <span class="run">RUNS</span>
         	<router-link to="/funrun">
-				<span class="funrun">Fun Run (5KM.)</span>
+				<span class="funrun">Fun Run<br> (5KM.)</span>
 			</router-link>
 			<router-link to="minirun">
-				<span class="mini">Mini(10KM.)</span>
+				<span class="mini">Mini Marathon<br>(10KM.)</span>
 			</router-link>
 			<router-link to="halfrun">
-				<span class="Half">Half(21KM.)</span>
+				<span class="Half">Half Marathon<br>(21KM.)</span>
 			</router-link>
 			<router-link to="fullrun">
-				<span class="Full">Full(42KM.)</span>
+				<span class="Full">Full Marathon<br>(42KM.)</span>
 			</router-link>
 			
 

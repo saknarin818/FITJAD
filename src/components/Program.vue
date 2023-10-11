@@ -71,7 +71,7 @@ export default {
 	height:93px;
 	position:absolute;
 	left:500px;
-	top:120px;
+	top:100px;
     font-family: 'Mali', cursive;	text-align:center;
 	font-size:50px;
 	letter-spacing:0;
