@@ -4,17 +4,15 @@
 		<PageMenu/>
         <div>
             <span  class="or">OR</span>
-           
-                
+			<div class="run"></div>
+			<div class="cadio"></div>
             
             <span class="program">เลือกโปรแกรม</span>
 			<router-link to="/cadio">
-				<span  class="cadios">คาร์ดิโอ</span>
-				<div class="cadio"></div>
+				<button class="button cadios">คาร์ดิโอ</button>
 			</router-link>
 			<router-link to="/run">
-				<span  class="running">วิ่ง</span>
-				<div class="run"></div>
+				<button  class="button running">วิ่ง</button>
 			</router-link>
         </div>
 
@@ -31,6 +29,16 @@ export default {
 
 <style  scoped>
 @import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,400;1,500&display=swap');
+/* สร้างเอฟเฟกต์เมื่อ hover ในปุ่ม */
+.button {
+  transition: transform 0.2s ease; /* กำหนดความเร็วและโค้งการแสดงเอฟเฟกต์ */
+  transform: scale(1); /* ค่าเริ่มต้น */
+  cursor: pointer; /* แสดงเครื่องมือตัวชี้เมื่อ hover */
+}
+.button:hover {
+  transform: scale(1.1); /* ค่าขนาดที่กำหนดในการ hover */
+  color: red;
+}
 .running { 
 	color:rgba(0, 0, 0, 1);
 	width:500px;

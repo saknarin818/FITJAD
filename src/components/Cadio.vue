@@ -3,6 +3,7 @@
     <div>
 		<PageMenu/>
         <div class="container">
+			<div class=""></div>
             <span class="cadio">CADIOS</span>
 			<span class="font">
 				<b>คาร์ดิโอ</b> คือการออกกำลังกายประเภทใดก็ได้ที่เพิ่มอัตราการเต้นของหัวใจ เช่น วิ่ง ว่ายน้ำ ปั่นจักรยาน<br> 
@@ -77,17 +78,26 @@ export default {
 </script>
 
 <style  scoped>
-@media (max-width: 767px) {
-  
-}
+
 
 @import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,400;1,500&display=swap');
+.tap { 
+	background-color:rgba(50.421865582466125, 49.16497282683849, 55.4492200165987, 1);
+	width:86px;
+	height:4014px;
+	position:absolute;
+	left:80px;
+	top:180px;
+	border:1px solid rgba(0, 0, 0, 1);
+}
+
+
 .Pushup { 
 	color:rgba(0, 0, 0, 1);
 	width:1012px;
 	height:176px;
 	position:absolute;
-	left:240px;
+	left:230px;
 	top:400px;
 	font-family: 'Mali', cursive;	text-align:center;
 	text-align:left;
@@ -99,7 +109,7 @@ export default {
 	width:1012px;
 	height:176px;
 	position:absolute;
-	left:240px;
+	left:230px;
 	top:820px;
 	font-family: 'Mali', cursive;	text-align:center;
 	text-align:left;
@@ -107,10 +117,10 @@ export default {
 	letter-spacing:0;
 }
 .Pushupp { 
-	width:350px;
+	width:550px;
 	height:350px;
 	position:absolute;
-	left:240px;
+	left:230px;
 	top:450px;
 	background-image:url(../img/pushup.png);
 	background-repeat:no-repeat;
@@ -121,7 +131,7 @@ export default {
 	width:1012px;
 	height:176px;
 	position:absolute;
-	left:240px;
+	left:230px;
 	top:1050px;
 	font-family: 'Mali', cursive;	text-align:center;
 	text-align:left;
@@ -133,7 +143,7 @@ export default {
 	width:1012px;
 	height:176px;
 	position:absolute;
-	left:240px;
+	left:230px;
 	top:1460px;
 	font-family: 'Mali', cursive;	text-align:center;
 	text-align:left;
@@ -141,10 +151,10 @@ export default {
 	letter-spacing:0;
 }
 .Squatp { 
-	width:350px;
+	width:550px;
 	height:350px;
 	position:absolute;
-	left:240px;
+	left:230px;
 	top:1100px;
 	background-image:url(../img/squat.png);
 	background-repeat:no-repeat;
@@ -155,7 +165,7 @@ export default {
 	width:1012px;
 	height:176px;
 	position:absolute;
-	left:240px;
+	left:230px;
 	top:1730px;
 	font-family: 'Mali', cursive;	text-align:center;
 	text-align:left;
@@ -167,7 +177,7 @@ export default {
 	width:1012px;
 	height:176px;
 	position:absolute;
-	left:240px;
+	left:230px;
 	top:2150px;
 	font-family: 'Mali', cursive;	text-align:center;
 	text-align:left;
@@ -175,12 +185,12 @@ export default {
 	letter-spacing:0;
 }
 .Lungep { 
-	width:350px;
+	width:550px;
 	height:350px;
 	position:absolute;
-	left:240px;
+	left:230px;
 	top:1780px;
-	background-image:url(../img/lunge.png);
+	background-image:url(../img/lunge.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -189,7 +199,7 @@ export default {
 	width:1012px;
 	height:176px;
 	position:absolute;
-	left:240px;
+	left:230px;
 	top:2380px;
 	font-family: 'Mali', cursive;	text-align:center;
 	text-align:left;
@@ -201,7 +211,7 @@ export default {
 	width:1012px;
 	height:176px;
 	position:absolute;
-	left:240px;
+	left:230px;
 	top:2800px;
 	font-family: 'Mali', cursive;	text-align:center;
 	text-align:left;
@@ -209,10 +219,10 @@ export default {
 	letter-spacing:0;
 }
 .Crunchp { 
-	width:350px;
+	width:550px;
 	height:350px;
 	position:absolute;
-	left:240px;
+	left:230px;
 	top:2430px;
 	background-image:url(../img/crunch.png);
 	background-repeat:no-repeat;
@@ -223,7 +233,7 @@ export default {
 	width:1012px;
 	height:176px;
 	position:absolute;
-	left:240px;
+	left:230px;
 	top:3030px;
 	font-family: 'Mali', cursive;	text-align:center;
 	text-align:left;
@@ -235,7 +245,7 @@ export default {
 	width:1012px;
 	height:176px;
 	position:absolute;
-	left:240px;
+	left:230px;
 	top:3450px;
 	font-family: 'Mali', cursive;	text-align:center;
 	text-align:left;
@@ -243,10 +253,10 @@ export default {
 	letter-spacing:0;
 }
 .Plankp { 
-	width:350px;
+	width:550px;
 	height:350px;
 	position:absolute;
-	left:240px;
+	left:230px;
 	top:3080px;
 	background-image:url(../img/plank.png);
 	background-repeat:no-repeat;
@@ -257,7 +267,7 @@ export default {
 	width:1012px;
 	height:176px;
 	position:absolute;
-	left:240px;
+	left:230px;
 	top:3650px;
 	font-family: 'Mali', cursive;	text-align:center;
 	text-align:left;
@@ -269,7 +279,7 @@ export default {
 	width:1012px;
 	height:176px;
 	position:absolute;
-	left:240px;
+	left:230px;
 	top:4070px;
 	font-family: 'Mali', cursive;	text-align:center;
 	text-align:left;
@@ -277,12 +287,12 @@ export default {
 	letter-spacing:0;
 }
 .JumpinkJackp { 
-	width:350px;
+	width:550px;
 	height:350px;
 	position:absolute;
-	left:240px;
+	left:230px;
 	top:3700px;
-	background-image:url(../img/jumingjack.png);
+	background-image:url(../img/jumpingjack.jpeg);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -291,7 +301,7 @@ export default {
 	width:1012px;
 	height:176px;
 	position:absolute;
-	left:240px;
+	left:230px;
 	top:210px;
 	font-family: 'Mali', cursive;	text-align:center;
 	text-align:left;

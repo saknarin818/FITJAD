@@ -4,7 +4,11 @@
         <PageMenu/>
         <div>
           <span  class="full">Full Marathon(42KM.)</span>
-          <span  class="e174_19"><b>โปรแกรมซ้อมวิ่งมาราธอนสำหรับนักวิ่งมือใหม่</b><br>
+
+          <div class="full1"></div>
+          <div class="full2"></div>
+
+          <span  class="fullrun"><b>โปรแกรมซ้อมวิ่งมาราธอนสำหรับนักวิ่งมือใหม่</b><br>
             เพื่อนๆ พร้อมแล้วที่จะลงแข่งมาราธอนใช่หรือไม่<br>
             โปรแกรมการฝึกนี้ออกแบบมาเพื่อมือใหม่ที่ต้องการเพิ่มระยะทางในการวิ่งโดยเฉพาะเลย โปรแกรมนี้จะฝึกกัน 4 วันต่อสัปดาห์ โดยช่วงแรกจะมีระยะทางสัปดาห์ละ 9.65 กม. (6 ไมล์) และเพิ่มไปจนถึง 32 กม. (20 ไมล์) ซึ่งจะมีวันที่วิ่งในระยะทางนี้สองวัน
             <br><br>
@@ -78,13 +82,13 @@ export default {
 <style  scoped>
 @import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,400;1,500&display=swap');
 
-.e174_19 { 
+.fullrun { 
 	color:rgba(0, 0, 0, 1);
 	width:1137px;
 	height:153px;
 	position:absolute;
-	left:230px;
-	top:246px;
+	left:220px;
+	top:700px;
 	font-family: 'Mali', cursive;	text-align:center;
 	text-align:left;
 	font-size:22px;
@@ -100,5 +104,25 @@ export default {
   font-family: 'Mali', cursive;	text-align:center;
 	font-size:50px;
 	letter-spacing:0;
+}
+.full1 { 
+	width:400px;
+	height:400px;
+	position:absolute;
+	left:800px;
+	top:250px;
+	background-image:url(../img/full1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.full2 { 
+	width:400px;
+	height:400px;
+	position:absolute;
+	left:320px;
+	top:250px;
+	background-image:url(../img/full2.png);
+	background-repeat:no-repeat;
+	background-size:cover;
 }
 </style>

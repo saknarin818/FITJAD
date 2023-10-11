@@ -4,7 +4,7 @@
         <PageMenu/>
         <div>
             <span  class="funrun">Fun Run (5KM.)</span>
-            <div class="e96_43"></div>
+            <div class="fun"></div>
             <span  class="funrun1"><b>ปัจจุบันการวิ่งฟันรัน (Fun Run)</b> ได้รับความนิยมอย่างมากทั้งจากเหล่าบรรดาคนรักสุขภาพ อยากเริ่มลงแข่งวิ่ง<br>
                 เพราะการวิ่ง Fun Run เป็นการวิ่งที่สบายๆ เริ่มต้นวิ่งได้ง่าย มีระยะทางวิ่งที่ไม่ไกล และไม่ต้องแข่งขันกับใคร<br>
                 สามารถวิ่งเพื่อความสนุก วิ่งเพื่อสุขภาพและเพื่อการกุศล วิ่งแล้วจะได้ประโยชน์หลายอย่าง ทั้งในด้านสุขภาพ<br>
@@ -69,7 +69,7 @@ export default {
 	height:153px;
 	position:absolute;
 	left:230px;
-	top:800px;
+	top:710px;
 	font-family: 'Mali', cursive;	text-align:center;
 	text-align:left;
 	font-size:22px;
@@ -81,7 +81,7 @@ export default {
 	height:153px;
 	position:absolute;
 	left:230px;
-	top:1000px;
+	top:910px;
 	font-family: 'Mali', cursive;	text-align:center;
 	text-align:left;
 	font-size:22px;
@@ -93,7 +93,7 @@ export default {
 	height:153px;
 	position:absolute;
 	left:230px;
-	top:1200px;
+	top:1110px;
 	font-family: 'Mali', cursive;	text-align:center;
 	text-align:left;
 	font-size:22px;
@@ -105,7 +105,7 @@ export default {
 	height:153px;
 	position:absolute;
 	left:230px;
-	top:1400px;
+	top:1310px;
 	font-family: 'Mali', cursive;	text-align:center;
 	text-align:left;
 	font-size:22px;
@@ -117,19 +117,19 @@ export default {
 	height:153px;
 	position:absolute;
 	left:230px;
-	top:2130px;
+	top:2010px;
 	font-family: 'Mali', cursive;	text-align:center;
 	text-align:left;
 	font-size:22px;
 	letter-spacing:0;
 }
-.e96_43 { 
-	width:750px;
-	height:500px;
+.fun { 
+	width:1020px;
+	height:400px;
 	position:absolute;
-	left:350px;
-	top:250px;
-	background-image:url(../img/funrun.png);
+	left:230px;
+	top:230px;
+	background-image:url(../img/fun.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }

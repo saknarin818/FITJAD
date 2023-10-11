@@ -3,8 +3,9 @@
     <div>
         <PageMenu/>
         <div>
-          <span  class="half">Half Marathon(42KM.)</span>
-          <span  class="e170_11"><b>แผนซ้อมวิ่ง Half Marathon (ฮาล์ฟมาราธอน) สำหรับมือใหม่</b><br>
+          <div class="half1"></div>
+          <span  class="half">Half Marathon(21KM.)</span>
+          <span  class="halfrun"><b>แผนซ้อมวิ่ง Half Marathon (ฮาล์ฟมาราธอน) สำหรับมือใหม่</b><br>
           ไม่ว่าเราจะพึ่งเริ่มต้นวิ่งใหม่ๆหรือว่าหยุดพักจากการวิ่งไปนาน การฝึกวิ่งฮาล์ฟมาราธอนเป็นอะไรที่ยังไงก็สามารถทำได้ ถึงแม้ว่าเราจะมีงานยุ่งก็ตาม เราสามารถเอาใจใส่กับงานและการฝึกซ้อมให้เก่งขึ้นได้พร้อมๆกัน
           <br><br>
           ถ้าหากเพื่อนๆสามารถวิ่งได้สัก 3.2 – 4.8 กม. ในการซ้อมแต่ละครั้ง หรือจะเป็นการเดินผสมกับการวิ่งก็ได้ และสามารถซ้อมได้ 3 วันต่อสัปดาห์ เพื่อนๆก็สามารถมีร่างกายที่ฟิตพอจะลงแข่งฮาล์ฟมาราธอนใน 12 สัปดาห์แน่นอน
@@ -37,13 +38,13 @@ export default {
 <style  scoped>
 @import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,400;1,500&display=swap');
 
-.e170_11 { 
+.halfrun { 
 	color:rgba(0, 0, 0, 1);
 	width:1137px;
 	height:153px;
 	position:absolute;
 	left:230px;
-	top:250px;
+	top:750px;
 	font-family: 'Mali', cursive;	text-align:center;
 	text-align:left;
 	font-size:22px;
@@ -59,5 +60,15 @@ export default {
   font-family: 'Mali', cursive;	text-align:center;
 	font-size:50px;
 	letter-spacing:0;
+}
+.half1 { 
+	width:940px;
+	height:450px;
+	position:absolute;
+	left:275px;
+	top:250px;
+	background-image:url(../img/half.png);
+	background-repeat:no-repeat;
+	background-size:cover;
 }
 </style>

@@ -1,22 +1,22 @@
 <template>
-  <div >
-  <PageMenu/>
-    <div class="menu">
-		<div class="gb"></div>
-		
-		<div class="e66_10"></div>
-      	<div class="e50_156"></div>
-		
-        <div class="e50_160"></div>
-		<router-link to="/Program" >
-			<div class="e50_161">START</div>
-		</router-link>
-        <span class="e50_162">แนะนำโปรแกรมการวิ่งและคาดิโอ</span>
-    	<div class="e62_6"></div>
-    	<div class="e62_4"></div>
-	</div>
-
-  </div>
+	<div>
+  		<PageMenu/>
+		<div>
+			<hr>
+			<h1 class="tthome1">WELCOME TO FIDJAD </h1>
+			<span>
+				<h4 class="tthome2">The site will make you happy with lean muscle </h4>
+			</span>
+			<span>
+				<h4 class="tthome2">and weight loss.</h4>
+			</span><br><hr>
+		</div>
+		<div>
+			<a :href="components" class="menu-item btstart">START</a>
+		</div>
+  	</div>
+	<img src="img/pee.png" class="imgbg">
+	
 </template>
 
 <script>
@@ -24,69 +24,83 @@ import PageMenu from "./PageMenu.vue";
 
 export default {
   components: { PageMenu },
+  data() {
+    return {
+		components: '/Program',
+		title: 'START',
+		Image: '',
+        };
+    },
+    methods: {
+    handleClick() {
+        // การทำงานเมื่อปุ่มถูกคลิก
+        }
+    }
 };
 </script>
 
 <style  scoped>
 @import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,400;1,500&display=swap');
-
-.gb{ 
-	width:330px;
-	height:410px;
-	position:absolute;
-	left:0px;
-	top:314px;
-	background-image:url(../img/image_15.png);
-	background-repeat:no-repeat;
-	background-size:cover;
+.menu-item {
+  transition: transform 0.2s ease; /* กำหนดความเร็วและโค้งการแสดงเอฟเฟกต์ */
+  transform: scale(1); /* ค่าเริ่มต้น */
+  cursor: pointer; /* แสดงเครื่องมือตัวชี้เมื่อ hover */
+}
+.menu-item:hover {
+  transform: scale(1.1); /* ค่าขนาดที่กำหนดในการ hover */
+  color: rgb(247, 3, 3) 
+}
+hr{
+	border-style: solid;
+	border-width: 2px;
+	position: relative;
+	top: 180px;
+	right: 60px;
 }
 
-.LOGO { 
-	transform: rotate(-90deg);
-	width:150px;
-	height:150px;
-	position:absolute;
-	left:73px;
-	top:0px;
-	background-image:url(../img/image_3.png);
-	background-repeat:no-repeat;
-	background-size:cover;
-}
-.e66_10 { 
-	width:557px;
-	height:349px;
-	background-image:url(../img/image_14.png);
-	background-repeat:no-repeat;
-	background-size:cover;
-	position:absolute;
-	left:915px;
-	top:366px;
+.tthome1{
+	font-family: 'Mali', cursive;	
+  	text-align: left;
+	color: black;
+	position: relative;
+	top: 200px;
+	right: 40px;
+	font-size: 40px;
 }
 
-
-.e50_162{
-	color:rgb(237, 25, 25);
-	width:980px;
-	height:100px;
-	position:absolute;
-	left:305px;
-	top:200px;
-	font-family: 'Mali', cursive;	text-align:center;
-	font-size:50px;
-	letter-spacing:0;
+.tthome2{
+	font-family: 'Mali', cursive;	
+  	text-align: left;
+	color: black;
+	position: relative;
+	top: 200px;
+	right: 40px;
+	font-size: 20px;
 }
 
-.e50_161{
-	color:rgb(236, 29, 29);
-	width:484px;
-	height:138px;
-	position:absolute;
-	left:503px;
-	top:390px;
-	font-family: 'Mali', cursive;	text-align:center;
-	font-size:125px;
-	letter-spacing:0;
+.btstart {
+	width: 100px;
+  	font-family: 'Mali', cursive;	
+  	text-align: center;
+  	background-color: black; 
+  	color: white; 
+  	border: none; 
+  	border-radius: 5px;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-size: 30px; 
+	position: relative;
+	top: 200px;
+	right: 40px;
 }
 
+.imgbg{
+	text-align: center;
+	width: 590px;
+	height: 630px;
+	left: 70px;
+	position: relative;
+	top: 30px;
+}
 
 </style>

@@ -9,6 +9,7 @@ import funrun from '../components/funrun.vue'
 import minirun from '../components/minirun.vue'
 import halfrun from '../components/halfrun.vue'
 import fullrun from '../components/fullrun.vue'
+import bmi from '../components/bmi.vue'
 
 const routes = [
   {
@@ -64,6 +65,12 @@ const routes = [
     path: "/fullrun",
     name: "fullrun",
     component: fullrun,
+    // หน้าหลัก เวลาเปิดเว็บ ขึ้นมา
+  },
+  {
+    path: "/bmi",
+    name: "bmi",
+    component: bmi,
     // หน้าหลัก เวลาเปิดเว็บ ขึ้นมา
   },
   {
