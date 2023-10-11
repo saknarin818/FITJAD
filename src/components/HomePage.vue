@@ -15,7 +15,7 @@
 			<a :href="components" class="menu-item btstart">START</a>
 		</div>
   	</div>
-	<img src="img/pee.png" class="imgbg">
+	<div class="imgbg"></div>
 	
 </template>
 
@@ -96,11 +96,13 @@ hr{
 
 .imgbg{
 	text-align: center;
-	width: 590px;
+	width: 600px;
 	height: 630px;
 	left: 70px;
 	position: relative;
-	top: 30px;
+	top: 50px;
+	background-repeat:no-repeat;
+
 }
 
 </style>
