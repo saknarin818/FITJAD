@@ -15,7 +15,7 @@
 			<a :href="components" class="menu-item btstart">START</a>
 		</div>
   	</div>
-	<span><img src="img/bg.jpg" class="imgbg"></span>
+	<span><img src="/img/bg.jpg" class="imgbg"></span>
 	
 </template>
 

@@ -6,11 +6,11 @@
             <span class="Telephone">Contact Us</span>
         </div>
         <div>
-            <img src="img/tel.png" alt="" class="iconphone"><br>
+            <img src="/img/tel.png" alt="" class="iconphone"><br>
             <span class="phone">By Phone</span>
-            <img src="img/face.png" alt="" class="iconfb"><br>
+            <img src="/img/face.png" alt="" class="iconfb"><br>
             <span class="pagefb">Page Facebook</span>
-            <img src="img/line.png" alt="" class="iconline"><br>
+            <img src="/img/line.png" alt="" class="iconline"><br>
             <span class="line">By Line</span>
             <div class="ttphone">
                 <div>Monday to Friday, 9am to 6pm</div>
