@@ -3,7 +3,7 @@
     <div>
         <PageMenu/>
         <div>
-          <div class="half1"></div>
+          <div class="imghalf1"></div>
           <span  class="half">Half Marathon(21KM.)</span>
           <span  class="halfrun"><b>แผนซ้อมวิ่ง Half Marathon (ฮาล์ฟมาราธอน) สำหรับมือใหม่</b><br>
           ไม่ว่าเราจะพึ่งเริ่มต้นวิ่งใหม่ๆหรือว่าหยุดพักจากการวิ่งไปนาน การฝึกวิ่งฮาล์ฟมาราธอนเป็นอะไรที่ยังไงก็สามารถทำได้ ถึงแม้ว่าเราจะมีงานยุ่งก็ตาม เราสามารถเอาใจใส่กับงานและการฝึกซ้อมให้เก่งขึ้นได้พร้อมๆกัน
@@ -61,7 +61,7 @@ export default {
 	font-size:50px;
 	letter-spacing:0;
 }
-.half1 { 
+.imghalf1 { 
 	width:940px;
 	height:450px;
 	position:absolute;
@@ -70,5 +70,42 @@ export default {
 	background-image:url(../img/half.png);
 	background-repeat:no-repeat;
 	background-size:cover;
+}
+
+@media only screen and (max-device-width: 844px) {
+.halfrun { 
+  color:rgba(0, 0, 0, 1);
+	width:300px;
+	height:60px;
+	position:absolute;
+	left:50px;
+	top:460px;
+  font-family: 'Mali', cursive;	
+  text-align:center;
+	font-size:15px;
+	letter-spacing:0;
+}
+.half{
+  color:rgba(0, 0, 0, 1);
+	width:300px;
+	height:60px;
+	position:absolute;
+	left:50px;
+	top:100px;
+  font-family: 'Mali', cursive;	
+  text-align:center;
+	font-size:30px;
+	letter-spacing:0;
+}
+.imghalf1 { 
+	width:500px;
+	height:240px;
+	position:absolute;
+	left:0px;
+	top:200px;
+	background-image:url(../img/half.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
 }
 </style>

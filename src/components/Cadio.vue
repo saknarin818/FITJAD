@@ -320,4 +320,233 @@ export default {
 	font-size:50px;
 	letter-spacing:0;
 }
+
+@media only screen and (max-device-width: 844px) {
+	.tap { 
+	background-color:rgba(50.421865582466125, 49.16497282683849, 55.4492200165987, 1);
+	width:86px;
+	height:4014px;
+	position:absolute;
+	left:80px;
+	top:180px;
+	border:1px solid rgba(0, 0, 0, 1);
+}
+
+
+.Pushup { 
+	color:rgba(0, 0, 0, 1);
+	width:300px;
+	height:60px;
+	position:absolute;
+	left:50px;
+	top:400px;
+    font-family: 'Mali', cursive;	text-align:center;
+	font-size:15px;
+	letter-spacing:0;
+}
+.Pushupf { 
+	color:rgba(0, 0, 0, 1);
+	width:300px;
+	height:60px;
+	position:absolute;
+	left:50px;
+	top:670px;	
+    font-family: 'Mali', cursive;	text-align:center;
+	font-size:15px;
+	letter-spacing:0;
+}
+.Pushupp { 
+	width:300px;
+	height:200px;
+	position:absolute;
+	left:50px;
+	top:450px;
+	background-image:url(../img/pushup.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.Squat { 
+	color:rgba(0, 0, 0, 1);
+	width:300px;
+	height:60px;
+	position:absolute;
+	left:50px;
+	top:950px;
+    font-family: 'Mali', cursive;	text-align:center;
+	font-size:15px;
+	letter-spacing:0;
+}
+.Squatf { 
+	color:rgba(0, 0, 0, 1);
+	width:300px;
+	height:60px;
+	position:absolute;
+	left:50px;
+	top:1210px;	
+    font-family: 'Mali', cursive;	text-align:center;
+	font-size:15px;
+	letter-spacing:0;
+}
+.Squatp { 
+	width:300px;
+	height:200px;
+	position:absolute;
+	left:50px;
+	top:1000px;
+	background-image:url(../img/squat.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.Lunge { 
+	color:rgba(0, 0, 0, 1);
+	width:300px;
+	height:60px;
+	position:absolute;
+	left:50px;
+	top:1520px;
+    font-family: 'Mali', cursive;	text-align:center;
+	font-size:15px;
+	letter-spacing:0;
+}
+.Lungef { 
+	color:rgba(0, 0, 0, 1);
+	width:300px;
+	height:60px;
+	position:absolute;
+	left:50px;
+	top:1780px;	
+    font-family: 'Mali', cursive;	text-align:center;
+	font-size:15px;
+	letter-spacing:0;
+}
+.Lungep { 
+	width:300px;
+	height:200px;
+	position:absolute;
+	left:50px;
+	top:1570px;
+	background-image:url(../img/lunge.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.Crunch { 
+	color:rgba(0, 0, 0, 1);
+	width:300px;
+	height:60px;
+	position:absolute;
+	left:50px;
+	top:2020px;
+    font-family: 'Mali', cursive;	text-align:center;
+	font-size:15px;
+	letter-spacing:0;
+}
+.Crunchf { 
+	color:rgba(0, 0, 0, 1);
+	width:300px;
+	height:60px;
+	position:absolute;
+	left:50px;
+	top:2290px;	
+    font-family: 'Mali', cursive;	text-align:center;
+	font-size:15px;
+	letter-spacing:0;
+}
+.Crunchp { 
+	width:300px;
+	height:200px;
+	position:absolute;
+	left:50px;
+	top:2070px;
+	background-image:url(../img/crunch.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.Plank { 
+	color:rgba(0, 0, 0, 1);
+	width:300px;
+	height:60px;
+	position:absolute;
+	left:50px;
+	top:2510px;
+    font-family: 'Mali', cursive;	text-align:center;
+	font-size:15px;
+	letter-spacing:0;
+}
+.Plankf { 
+	color:rgba(0, 0, 0, 1);
+	width:300px;
+	height:60px;
+	position:absolute;
+	left:50px;
+	top:2790px;	
+    font-family: 'Mali', cursive;	text-align:center;
+	font-size:15px;
+	letter-spacing:0;
+}
+.Plankp { 
+	width:300px;
+	height:200px;
+	position:absolute;
+	left:50px;
+	top:2570px;
+	background-image:url(../img/plank.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.JumpinkJack { 
+	color:rgba(0, 0, 0, 1);
+	width:300px;
+	height:60px;
+	position:absolute;
+	left:50px;
+	top:3010px;
+    font-family: 'Mali', cursive;	text-align:center;
+	font-size:15px;
+	letter-spacing:0;
+}
+.JumpinkJackf { 
+	color:rgba(0, 0, 0, 1);
+	width:300px;
+	height:60px;
+	position:absolute;
+	left:50px;
+	top:3290px;	
+    font-family: 'Mali', cursive;	text-align:center;
+	font-size:15px;
+	letter-spacing:0;
+}
+.JumpinkJackp { 
+	width:300px;
+	height:200px;
+	position:absolute;
+	left:50px;
+	top:3070px;
+	background-image:url(../img/jumpingjack.jpeg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.font { 
+	color:rgba(0, 0, 0, 1);
+	width:300px;
+	height:60px;
+	position:absolute;
+	left:50px;
+	top:150px;
+    font-family: 'Mali', cursive;	text-align:center;
+	font-size:15px;
+	letter-spacing:0;
+}
+
+.cadio{
+	color:rgba(0, 0, 0, 1);
+	width:300px;
+	height:60px;
+	position:absolute;
+	left:50px;
+	top:100px;
+    font-family: 'Mali', cursive;	text-align:center;
+	font-size:30px;
+	letter-spacing:0;
+}
+}
 </style>

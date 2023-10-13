@@ -99,4 +99,52 @@ export default {
 	font-size:50px;
 	letter-spacing:0;
 }
+
+@media only screen and (max-device-width: 844px){
+.button {
+  transition: transform 0.2s ease; /* กำหนดความเร็วและโค้งการแสดงเอฟเฟกต์ */
+  transform: scale(1); /* ค่าเริ่มต้น */
+  cursor: pointer; /* แสดงเครื่องมือตัวชี้เมื่อ hover */
+}
+.button:hover {
+  transform: scale(1.1); /* ค่าขนาดที่กำหนดในการ hover */
+  color: red;
+}
+.bmi1{
+    color:rgba(0, 0, 0, 1);
+	  width:300px;
+	  height:60px;
+	  position:absolute;
+	  left:50px;
+	  top:150px;
+    font-family: 'Mali', cursive;	
+    text-align:center;
+	  font-size:15px;
+	  letter-spacing:0;
+}
+.bmi2{
+    color:rgba(0, 0, 0, 1);
+	  width:300px;
+	  height:60px;
+	  position:absolute;
+	  left:50px;
+	  top:470px;
+    font-family: 'Mali', cursive;	
+    text-align:center;
+	  font-size:15px;   
+	  letter-spacing:0;
+}
+.bmi{
+  color:rgba(0, 0, 0, 1);
+	width:300px;
+	height:60px;
+	position:absolute;
+	left:50px;
+	top:90px;
+  font-family: 'Mali', cursive;	
+  text-align:center;
+	font-size:30px;
+	letter-spacing:0;
+}
+}
 </style>

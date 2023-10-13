@@ -5,8 +5,8 @@
         <div>
           <span  class="full">Full Marathon(42KM.)</span>
 
-          <div class="full1"></div>
-          <div class="full2"></div>
+          <div class="imgfull1"></div>
+          <div class="imgfull2"></div>
 
           <span  class="fullrun"><b>โปรแกรมซ้อมวิ่งมาราธอนสำหรับนักวิ่งมือใหม่</b><br>
             เพื่อนๆ พร้อมแล้วที่จะลงแข่งมาราธอนใช่หรือไม่<br>
@@ -105,7 +105,7 @@ export default {
 	font-size:50px;
 	letter-spacing:0;
 }
-.full1 { 
+.imgfull1 { 
 	width:400px;
 	height:400px;
 	position:absolute;
@@ -115,7 +115,7 @@ export default {
 	background-repeat:no-repeat;
 	background-size:cover;
 }
-.full2 { 
+.imgfull2 { 
 	width:400px;
 	height:400px;
 	position:absolute;
@@ -124,5 +124,51 @@ export default {
 	background-image:url(../img/full2.png);
 	background-repeat:no-repeat;
 	background-size:cover;
+}
+
+@media only screen and (max-device-width: 844px) {
+.fullrun { 
+  color:rgba(0, 0, 0, 1);
+	width:300px;
+	height:60px;
+	position:absolute;
+	left:50px;
+	top:830px;
+  font-family: 'Mali', cursive;	
+  text-align:center;
+	font-size:15px;
+	letter-spacing:0;
+}
+.full{
+  color:rgba(0, 0, 0, 1);
+	width:300px;
+	height:60px;
+	position:absolute;
+	left:50px;
+	top:100px;
+  font-family: 'Mali', cursive;	text-align:center;
+	font-size:30px;
+	letter-spacing:0;
+}
+.imgfull1 { 
+  width:300px;
+	height:300px;
+	position:absolute;
+	left:50px;
+	top:200px;
+	background-image:url(../img/full1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.imgfull2 { 
+  width:300px;
+	height:300px;
+	position:absolute;
+	left:50px;
+	top:510px;
+	background-image:url(../img/full2.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
 }
 </style>

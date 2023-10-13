@@ -149,4 +149,115 @@ export default {
 	font-size:28px;
 	letter-spacing:0;
 }
+
+@media only screen and (max-device-width: 844px) {
+.button {
+  transition: transform 0.2s ease; /* กำหนดความเร็วและโค้งการแสดงเอฟเฟกต์ */
+  transform: scale(1); /* ค่าเริ่มต้น */
+  cursor: pointer; /* แสดงเครื่องมือตัวชี้เมื่อ hover */
+}
+.button:hover {
+  transform: scale(1.1); /* ค่าขนาดที่กำหนดในการ hover */
+  color: red;
+}
+.run1{
+	width:300px;
+	height:200px;
+	position:absolute;
+	left:50px;
+	top:150px;
+	background-image:url(../img/run4.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.run2{
+	width:300px;
+	height:200px;
+	position:absolute;
+	left:50px;
+	top:450px;
+	background-image:url(../img/run2.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.run3{
+	width:300px;
+	height:200px;
+	position:absolute;
+	left:50px;
+	top:750px;
+	background-image:url(../img/run3.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.run4{
+	width:300px;
+	height:200px;
+	position:absolute;
+	left:50px;
+	top:1050px;
+	background-image:url(../img/run1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.run{
+    color:rgba(0, 0, 0, 1);
+	width:300px;
+	height:60px;
+	position:absolute;
+	left:50px;
+	top:100px;
+    font-family: 'Mali', cursive;	text-align:center;
+	font-size:30px;
+	letter-spacing:0;
+}
+.funrun { 
+	color:rgba(0, 0, 0, 1);
+	width:200px;
+	height:60px;
+	position:absolute;
+	left:100px;
+	top:370px;
+    font-family: 'Mali', cursive;	text-align:center;
+	font-size:20px;
+	letter-spacing:0;
+}
+.mini { 
+	color:rgba(0, 0, 0, 1);
+	width:200px;
+	height:60px;
+	position:absolute;
+	left:100px;
+	top:670px;
+    font-family: 'Mali', cursive;	text-align:center;
+	font-size:20px;
+	letter-spacing:0;
+}
+.Half { 
+	color:rgba(0, 0, 0, 1);
+	width:200px;
+	height:60px;
+	position:absolute;
+	left:100px;
+	top:970px;
+    font-family: 'Mali', cursive;	text-align:center;
+	font-size:20px;
+	letter-spacing:0;
+}
+.Full { 
+	color:rgba(0, 0, 0, 1);
+	width:200px;
+	height:60px;
+	position:absolute;
+	left:100px;
+	top:1270px;
+    font-family: 'Mali', cursive;	text-align:center;
+	font-size:20px;
+	letter-spacing:0;
+}
+}
 </style>

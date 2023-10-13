@@ -47,4 +47,24 @@ export default {
 	font-size:50px;
 	letter-spacing:0;
 }
+
+@media only screen and (max-device-width: 844px) {
+  .card{
+  left: 0px;
+  top: 130px;
+  
+}
+.acti { 
+	color:rgba(0, 0, 0, 1);
+	width:300px;
+	height:60px;
+	position:absolute;
+	left:50px;
+	top:100px;
+  font-family: 'Mali', cursive;	
+  text-align:center;
+	font-size:50px;
+	letter-spacing:0;
+}
+}
 </style>

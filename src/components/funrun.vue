@@ -4,7 +4,7 @@
         <PageMenu/>
         <div>
             <span  class="funrun">Fun Run (5KM.)</span>
-            <div class="fun"></div>
+            <div class="imgfun"></div>
             <span  class="funrun1"><b>ปัจจุบันการวิ่งฟันรัน (Fun Run)</b> ได้รับความนิยมอย่างมากทั้งจากเหล่าบรรดาคนรักสุขภาพ อยากเริ่มลงแข่งวิ่ง<br>
                 เพราะการวิ่ง Fun Run เป็นการวิ่งที่สบายๆ เริ่มต้นวิ่งได้ง่าย มีระยะทางวิ่งที่ไม่ไกล และไม่ต้องแข่งขันกับใคร<br>
                 สามารถวิ่งเพื่อความสนุก วิ่งเพื่อสุขภาพและเพื่อการกุศล วิ่งแล้วจะได้ประโยชน์หลายอย่าง ทั้งในด้านสุขภาพ<br>
@@ -143,5 +143,84 @@ export default {
     font-family: 'Mali', cursive;	text-align:center;
 	font-size:50px;
 	letter-spacing:0;
+}
+
+@media only screen and (max-device-width: 844px) {
+.funrun1 { 
+	color:rgba(0, 0, 0, 1);
+	width:300px;
+	height:60px;
+	position:absolute;
+	left:50px;
+	top:370px;
+    font-family: 'Mali', cursive;	text-align:center;
+	font-size:15px;
+	letter-spacing:0;
+}
+.funrun2 { 
+	color:rgba(0, 0, 0, 1);
+	width:300px;
+	height:60px;
+	position:absolute;
+	left:50px;
+	top:700px;
+    font-family: 'Mali', cursive;	text-align:center;
+	font-size:15px;
+	letter-spacing:0;
+}
+.funrun3 { 
+	color:rgba(0, 0, 0, 1);
+	width:300px;
+	height:60px;
+	position:absolute;
+	left:50px;
+	top:1010px;
+    font-family: 'Mali', cursive;	text-align:center;
+	font-size:15px;
+	letter-spacing:0;
+}
+.funrun4 { 
+	color:rgba(0, 0, 0, 1);
+	width:300px;
+	height:60px;
+	position:absolute;
+	left:50px;
+	top:1310px;
+    font-family: 'Mali', cursive;	text-align:center;
+	font-size:15px;
+	letter-spacing:0;
+}
+.funrun5 { 
+	color:rgba(0, 0, 0, 1);
+	width:300px;
+	height:60px;
+	position:absolute;
+	left:50px;
+	top:2210px;
+    font-family: 'Mali', cursive;	text-align:center;
+	font-size:15px;
+	letter-spacing:0;
+}
+.imgfun { 
+	width:300px;
+	height:200px;
+	position:absolute;
+	left:50px;
+	top:150px;
+	background-image:url(../img/fun.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.funrun{
+    color:rgba(0, 0, 0, 1);
+	width:300px;
+	height:60px;
+	position:absolute;
+	left:50px;
+	top:100px;	
+    font-family: 'Mali', cursive;	text-align:center;
+	font-size:30px;
+	letter-spacing:0;
+}
 }
 </style>

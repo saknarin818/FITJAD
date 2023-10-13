@@ -49,15 +49,11 @@ export default {
         // การทำงานเมื่อปุ่มถูกคลิก
         }
     }
-
-
 };
 </script>
 
 <style  scoped>
 @import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,400;1,500&display=swap');
-
-
 
 .Telephone{
     font-family: 'Mali', cursive;	
@@ -161,5 +157,111 @@ export default {
     left: 515px;
     bottom: 220px;
     font-size: 15px;
+}
+
+@media only screen and (max-device-width: 844px) {
+.Telephone{
+    font-family: 'Mali', cursive;	
+    text-align: center;
+    color: black;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    font-size: 40px;
+    
+}
+
+.phone{
+    font-family: 'Mali', cursive;	
+    text-align: center;
+    color: black;
+    position: relative;
+    top: 60px;
+    left: 110px;
+    font-size: 25px;
+}
+
+.iconphone{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 80px;
+    left: 120px;
+}
+
+.pagefb{
+    font-family: 'Mali', cursive;	
+    text-align: center;
+    color: black;
+    position: relative;
+    top: 165px;
+    left: 75px;
+    font-size: 25px;
+}
+
+.iconfb{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 200px;
+    left: 0px;
+}
+
+.iconline{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 330px;
+    left: -75px;
+}
+
+.line{
+    font-family: 'Mali', cursive;	
+    text-align: center;
+    color: black;
+    position: relative;
+    top: 330px;
+    left: 120px;
+    font-size: 25px;
+}
+
+.ttphone{
+    font-family: 'Mali', cursive;	
+    text-align: center;
+    color: black;
+    position: relative;
+    top: -110px;
+    left: 0px;
+    font-size: 15px;
+}
+
+.ttpagefb{
+    font-family: 'Mali', cursive;	
+    text-align: center;
+    color: black;
+    position: relative;
+    top: 25px;
+    left: 0px;
+    font-size: 15px;
+}
+
+.buttonpage {
+    background-color: #000; 
+    color: #fff; 
+    padding: 10px 20px;
+    text-decoration: none; 
+    border: none; 
+    border-radius: 5px; 
+}
+
+.ttline{
+    font-family: 'Mali', cursive;	
+    text-align: center;
+    color: black;
+    position: relative;
+    top: 195px;
+    left: 0px;
+    font-size: 15px;
+}
 }
 </style>

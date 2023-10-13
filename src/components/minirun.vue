@@ -4,7 +4,7 @@
         <PageMenu/>
         <div>
           <span  class="mini">Mini Marathon(10KM.)</span>
-          <div class="minirun"></div><br>
+          <div class="imgminirun"></div><br>
           <span  class="mini1"><b>การวิ่ง 10k คืออะไร ?</b><br>
             นอกจากการวิ่ง 5k แล้ว การวิ่ง 10k ก็เป็นการแข่งวิ่งที่ได้รับความนิยมสำหรับนักวิ่งมือใหม่มากเช่นเดียวกัน <br>เพราะเป็นงานแข่งวิ่งที่ดีสำหรับนักวิ่งทุกระดับ โดยเฉพาะอย่างยิ่งกับนักวิ่งมือใหม่ที่จะต้องลงแข่งเป็นครั้งแรก
             การแข่งวิ่ง 10k เราจะต้องวิ่งเป็นระยะทาง 10 กิโลเมตร และการฝึกเพื่อที่จะวิ่งให้ได้เป็นระยะทาง 10 กิโล<br>มันก็ไม่ใช่เรื่องท้าทายมากจนเกินไป แค่ยากกว่าการวิ่ง 5k เพียงแค่ขั้นเดียวเท่านั้น
@@ -59,7 +59,7 @@ export default {
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,400;1,500&display=swap');
-.minirun { 
+.imgminirun { 
 	width:900px;
 	height:1700px;
 	position:absolute;
@@ -92,5 +92,43 @@ export default {
   font-family: 'Mali', cursive;	text-align:center;
 	font-size:50px;
 	letter-spacing:0;
+}
+
+@media only screen and (max-device-width: 844px) {
+.imgminirun { 
+	width:390px;
+	height:300px;
+	position:absolute;
+	left:0px;
+	top:2850px;
+	background-image:url(../img/mini.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.mini1 { 
+	color:rgba(0, 0, 0, 1);
+	width:300px;
+	height:60px;
+	position:absolute;
+	left:50px;
+	top:200px;
+  font-family: 'Mali', cursive;	
+  text-align:center;
+	font-size:15px;
+	letter-spacing:0;
+}
+
+.mini{
+  color:rgba(0, 0, 0, 1);
+	width:300px;
+	height:60px;
+	position:absolute;
+	left:50px;
+	top:100px;
+  font-family: 'Mali', cursive;	
+  text-align:center;
+	font-size:30px;
+	letter-spacing:0;
+}
 }
 </style>

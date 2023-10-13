@@ -23,61 +23,61 @@ const routes = [
     path: "/Program",
     name: "Program",
     component: Program,
-    // หน้าหลัก เวลาเปิดเว็บ ขึ้นมา
+    // หน้าโปรแกรม 
   },
   {
     path: "/acti",
     name: "Acti",
     component: Acti,
-    // หน้าหลัก เวลาเปิดเว็บ ขึ้นมา
+    // หน้ากิจกรรม 
   },
   {
     path: "/tel",
     name: "Tel",
     component: Tel,
-    // หน้าหลัก เวลาเปิดเว็บ ขึ้นมา
+    // หน้าติดต่อ
   },
   {
     path: "/run",
     name: "Run",
     component: Run,
-    // หน้าหลัก เวลาเปิดเว็บ ขึ้นมา
+    // หน้าตารางวิ่ง
   },
   {
     path: "/funrun",
     name: "funrun",
     component: funrun,
-    // หน้าหลัก เวลาเปิดเว็บ ขึ้นมา
+    // หน้าวิ่งฟันรัน
   },
   {
     path: "/minirun",
     name: "minirun",
     component: minirun,
-    // หน้าหลัก เวลาเปิดเว็บ ขึ้นมา
+    // หน้าวิ่งมินิรัน
   },
   {
     path: "/halfrun",
     name: "halfrun",
     component: halfrun,
-    // หน้าหลัก เวลาเปิดเว็บ ขึ้นมา
+    // หน้าฮาฟรัน
   },
   {
     path: "/fullrun",
     name: "fullrun",
     component: fullrun,
-    // หน้าหลัก เวลาเปิดเว็บ ขึ้นมา
+    // หน้ามาราธอน
   },
   {
     path: "/bmi",
     name: "bmi",
     component: bmi,
-    // หน้าหลัก เวลาเปิดเว็บ ขึ้นมา
+    // หน้าวัด bmi
   },
   {
     path: "/cadio",
     name: "Cadio",
     component: Cadio,
-    // หน้าหลัก เวลาเปิดเว็บ ขึ้นมา
+    // หน้าคาดิโอ
   },
 
 ];

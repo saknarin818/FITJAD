@@ -110,5 +110,72 @@ export default {
 	letter-spacing:0;
 	
 }
+@media only screen and (max-device-width: 844px) {
+	.menu-item {
+  transition: transform 0.2s ease; /* กำหนดความเร็วและโค้งการแสดงเอฟเฟกต์ */
+  transform: scale(1); /* ค่าเริ่มต้น */
+  cursor: pointer; /* แสดงเครื่องมือตัวชี้เมื่อ hover */
+}
+.menu-item:hover {
+  transform: scale(1.1); /* ค่าขนาดที่กำหนดในการ hover */
+  color: gray 
+}
+.LOGO { 
+	transform: rotate(-90deg);
+	width:70px;
+	height:70px;
+	position:absolute;
+	left:40px;
+	top:0px;
+	background-image:url(../img/image_3.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.home { 
+	color:rgba(0, 0, 0, 1);
+	width:70px;
+	height:70px;
+	position:absolute;
+	left:155px;
+	top:27px;
+	font-family: 'Mali', cursive;	text-align:center;
+	font-size:14px;
+	letter-spacing:0;
+}
+.bmi { 
+	color:rgba(0, 0, 0, 1);
+	width:70px;
+	height:70px;
+	position:absolute;
+	left:208px;
+	top:27px;
+	font-family: 'Mali', cursive;	text-align:center;
+	font-size:14px;
+	letter-spacing:0;
+}
+.acti { 
+	color:rgba(0, 0, 0, 1);
+	width:70px;
+	height:70px;
+	position:absolute;
+	left:260px;
+	top:27px;
+	font-family: 'Mali', cursive;	text-align:center;
+	font-size:14px;
+	letter-spacing:0;
+}
+.tel { 
+	color:rgba(0, 0, 0, 1);
+	width:70px;
+	height:70px;
+	position:absolute;
+	left:320px;
+	top:27px;
+	font-family: 'Mali', cursive;	text-align:center;
+	font-size:14px;
+	letter-spacing:0;
+	
+}
+}
 
 </style>

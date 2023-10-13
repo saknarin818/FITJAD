@@ -15,7 +15,7 @@
 			<a :href="components" class="menu-item btstart">START</a>
 		</div>
   	</div>
-	<div class="imgbg"></div>
+	<span><img src="img/bg.jpg" class="imgbg"></span>
 	
 </template>
 
@@ -28,7 +28,6 @@ export default {
     return {
 		components: '/Program',
 		title: 'START',
-		Image: '',
         };
     },
     methods: {
@@ -41,15 +40,18 @@ export default {
 
 <style  scoped>
 @import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,400;1,500&display=swap');
+
 .menu-item {
   transition: transform 0.2s ease; /* กำหนดความเร็วและโค้งการแสดงเอฟเฟกต์ */
   transform: scale(1); /* ค่าเริ่มต้น */
   cursor: pointer; /* แสดงเครื่องมือตัวชี้เมื่อ hover */
 }
+
 .menu-item:hover {
   transform: scale(1.1); /* ค่าขนาดที่กำหนดในการ hover */
-  color: rgb(247, 3, 3) 
+  color: rgb(123, 142, 115) 
 }
+
 hr{
 	border-style: solid;
 	border-width: 2px;
@@ -96,13 +98,80 @@ hr{
 
 .imgbg{
 	text-align: center;
-	width: 600px;
-	height: 630px;
+	width: 700px;
+	height: 600px;
 	left: 70px;
 	position: relative;
 	top: 50px;
-	background-repeat:no-repeat;
-
+	border-radius: 10px;
 }
+
+@media only screen and (max-device-width: 844px) {
+.menu-item {
+  transition: transform 0.2s ease; /* กำหนดความเร็วและโค้งการแสดงเอฟเฟกต์ */
+  transform: scale(1); /* ค่าเริ่มต้น */
+  cursor: pointer; /* แสดงเครื่องมือตัวชี้เมื่อ hover */
+}
+
+.menu-item:hover {
+  transform: scale(1.1); /* ค่าขนาดที่กำหนดในการ hover */
+  color: rgb(123, 142, 115) 
+}
+
+hr{
+	border-style: solid;
+	border-width: 2px;
+	position: relative;
+	top: 300px;
+	right: 5px;
+}
+
+.tthome1{
+	font-family: 'Mali', cursive;	
+  	text-align: left;
+	color: black;
+	position: relative;
+	top:310px;
+	right: 5px;
+	font-size: 30px;
+}
+
+.tthome2{
+	font-family: 'Mali', cursive;	
+  	text-align: left;
+	color: black;
+	position: relative;
+	top: 310px;
+	right: 5px;
+	font-size: 20px;
+}
+
+.btstart {
+	width: 100px;
+  	font-family: 'Mali', cursive;	
+  	text-align: center;
+  	background-color: black; 
+  	color: white; 
+  	border: none; 
+  	border-radius: 5px;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-size: 30px; 
+	position: relative;
+	top: 300px;
+	right: 5px;
+}
+
+.imgbg{
+	text-align: center;
+	width: 300px;
+	height: 200px;
+	left: 10px;
+	position: relative;
+	top: -200px;
+	border-radius: 10px;
+}
+}
+
 
 </style>
