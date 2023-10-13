@@ -11,9 +11,9 @@
 				<h4 class="tthome2">and weight loss.</h4>
 			</span><br><hr>
 		</div>
-		<div>
-			<a :href="components" class="menu-item btstart">START</a>
-		</div>
+		<router-link to="Program">
+			<div class="menu-item btstart">START</div>
+		</router-link>
   	</div>
 	<span><img src="/img/bg.jpg" class="imgbg"></span>
 	
@@ -81,7 +81,7 @@ hr{
 }
 
 .btstart {
-	width: 100px;
+	width: 140px;
   	font-family: 'Mali', cursive;	
   	text-align: center;
   	background-color: black; 
@@ -147,7 +147,7 @@ hr{
 }
 
 .btstart {
-	width: 100px;
+	width: 140px;
   	font-family: 'Mali', cursive;	
   	text-align: center;
   	background-color: black; 
