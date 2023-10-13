@@ -122,7 +122,7 @@ export default {
 	position:absolute;
 	left:230px;
 	top:450px;
-	background-image:url(../img/pushup.png);
+	background-image:url(/img/pushup.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -156,7 +156,7 @@ export default {
 	position:absolute;
 	left:230px;
 	top:1100px;
-	background-image:url(../img/squat.png);
+	background-image:url(/img/squat.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -190,7 +190,7 @@ export default {
 	position:absolute;
 	left:230px;
 	top:1780px;
-	background-image:url(../img/lunge.jpg);
+	background-image:url(/img/lunge.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -224,7 +224,7 @@ export default {
 	position:absolute;
 	left:230px;
 	top:2430px;
-	background-image:url(../img/crunch.png);
+	background-image:url(/img/crunch.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -258,7 +258,7 @@ export default {
 	position:absolute;
 	left:230px;
 	top:3080px;
-	background-image:url(../img/plank.png);
+	background-image:url(/img/plank.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -292,7 +292,7 @@ export default {
 	position:absolute;
 	left:230px;
 	top:3700px;
-	background-image:url(../img/jumpingjack.jpeg);
+	background-image:url(/img/jumpingjack.jpeg);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -361,7 +361,7 @@ export default {
 	position:absolute;
 	left:50px;
 	top:450px;
-	background-image:url(../img/pushup.png);
+	background-image:url(/img/pushup.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -393,7 +393,7 @@ export default {
 	position:absolute;
 	left:50px;
 	top:1000px;
-	background-image:url(../img/squat.png);
+	background-image:url(/img/squat.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -425,7 +425,7 @@ export default {
 	position:absolute;
 	left:50px;
 	top:1570px;
-	background-image:url(../img/lunge.jpg);
+	background-image:url(/img/lunge.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -457,7 +457,7 @@ export default {
 	position:absolute;
 	left:50px;
 	top:2070px;
-	background-image:url(../img/crunch.png);
+	background-image:url(/img/crunch.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -489,7 +489,7 @@ export default {
 	position:absolute;
 	left:50px;
 	top:2570px;
-	background-image:url(../img/plank.png);
+	background-image:url(/img/plank.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -521,7 +521,7 @@ export default {
 	position:absolute;
 	left:50px;
 	top:3070px;
-	background-image:url(../img/jumpingjack.jpeg);
+	background-image:url(/img/jumpingjack.jpeg);
 	background-repeat:no-repeat;
 	background-size:cover;
 }

@@ -129,7 +129,7 @@ export default {
 	position:absolute;
 	left:230px;
 	top:230px;
-	background-image:url(../img/fun.png);
+	background-image:url(/img/fun.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -207,7 +207,7 @@ export default {
 	position:absolute;
 	left:50px;
 	top:150px;
-	background-image:url(../img/fun.png);
+	background-image:url(/img/fun.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }

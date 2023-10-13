@@ -111,7 +111,7 @@ export default {
 	position:absolute;
 	left:800px;
 	top:250px;
-	background-image:url(../img/full1.png);
+	background-image:url(/img/full1.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -121,7 +121,7 @@ export default {
 	position:absolute;
 	left:320px;
 	top:250px;
-	background-image:url(../img/full2.png);
+	background-image:url(/img/full2.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -156,7 +156,7 @@ export default {
 	position:absolute;
 	left:50px;
 	top:200px;
-	background-image:url(../img/full1.png);
+	background-image:url(/img/full1.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -166,7 +166,7 @@ export default {
 	position:absolute;
 	left:50px;
 	top:510px;
-	background-image:url(../img/full2.png);
+	background-image:url(/img/full2.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }

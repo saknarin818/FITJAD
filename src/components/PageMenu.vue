@@ -127,7 +127,7 @@ export default {
 	position:absolute;
 	left:40px;
 	top:0px;
-	background-image:url(../img/image_3.png);
+	background-image:url(/img/image_3.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }

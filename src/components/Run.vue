@@ -52,7 +52,7 @@ export default {
 	position:absolute;
 	left:65px;
 	top:240px;
-	background-image:url(../img/run4.png);
+	background-image:url(/img/run4.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -63,7 +63,7 @@ export default {
 	position:absolute;
 	left:440px;
 	top:240px;
-	background-image:url(../img/run2.png);
+	background-image:url(/img/run2.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -74,7 +74,7 @@ export default {
 	position:absolute;
 	left:810px;
 	top:240px;
-	background-image:url(../img/run3.png);
+	background-image:url(/img/run3.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -85,7 +85,7 @@ export default {
 	position:absolute;
 	left:1185px;
 	top:240px;
-	background-image:url(../img/run1.png);
+	background-image:url(/img/run1.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -166,7 +166,7 @@ export default {
 	position:absolute;
 	left:50px;
 	top:150px;
-	background-image:url(../img/run4.png);
+	background-image:url(/img/run4.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -177,7 +177,7 @@ export default {
 	position:absolute;
 	left:50px;
 	top:450px;
-	background-image:url(../img/run2.png);
+	background-image:url(/img/run2.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -199,7 +199,7 @@ export default {
 	position:absolute;
 	left:50px;
 	top:1050px;
-	background-image:url(../img/run1.png);
+	background-image:url(/img/run1.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);

@@ -67,7 +67,7 @@ export default {
 	position:absolute;
 	left:275px;
 	top:250px;
-	background-image:url(../img/half.png);
+	background-image:url(/img/half.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -103,7 +103,7 @@ export default {
 	position:absolute;
 	left:0px;
 	top:200px;
-	background-image:url(../img/half.png);
+	background-image:url(/img/half.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }

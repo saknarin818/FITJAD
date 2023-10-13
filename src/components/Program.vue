@@ -90,7 +90,7 @@ export default {
 	position:absolute;
 	left:180px;
 	top:210px;
-	background-image:url(../img/image_4.png);
+	background-image:url(/img/image_4.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -102,7 +102,7 @@ export default {
 	position:absolute;
 	left:860px;
 	top:210px;
-	background-image:url(../img/image_5.png);
+	background-image:url(/img/image_5.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -168,7 +168,7 @@ export default {
 	position:absolute;
 	left:50px;
 	top:150px;
-	background-image:url(../img/image_4.png);
+	background-image:url(/img/image_4.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -180,7 +180,7 @@ export default {
 	position:absolute;
 	left:50px;
 	top:500px;
-	background-image:url(../img/image_5.png);
+	background-image:url(/img/image_5.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);

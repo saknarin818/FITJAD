@@ -65,7 +65,7 @@ export default {
 	position:absolute;
 	left:290px;
 	top:2150px;
-	background-image:url(../img/mini.png);
+	background-image:url(/img/mini.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -101,7 +101,7 @@ export default {
 	position:absolute;
 	left:0px;
 	top:2850px;
-	background-image:url(../img/mini.png);
+	background-image:url(/img/mini.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
