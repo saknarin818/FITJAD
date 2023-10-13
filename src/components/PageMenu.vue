@@ -55,13 +55,13 @@ export default {
   color: gray 
 }
 .LOGO { 
-	transform: rotate(-90deg);
+	
 	width:120px;
 	height:120px;
 	position:absolute;
 	left:73px;
 	top:0px;
-	background-image:url(../img/image_3.png);
+	background-image:url(/img/fidfad.png);
 	background-repeat:no-repeat;
 	background-size:cover;
 }
