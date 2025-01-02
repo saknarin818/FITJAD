@@ -1,35 +1,3 @@
-# training
+# FIDJAD
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+โครงการนี้มุ่งเน้นไปที่ผู้ที่สนใจด้านสุขภาพและการออกกำลังกาย โดยมีชั้นเรียนคาร์ดิโอและโปรแกรมการฝึกวิ่งสำหรับผู้ที่ต้องการเริ่มต้นการเดินทางมาราธอน อีกทั้งยังมีระบบคำนวณ BMI เพื่อช่วยติดตามสุขภาพและกิจกรรมท้าทายต่างๆ เพื่อกระตุ้นให้ผู้เข้าร่วมได้พัฒนาศักยภาพและความแข็งแกร่งของตนเอง
